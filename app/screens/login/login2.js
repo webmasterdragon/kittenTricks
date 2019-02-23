@@ -49,8 +49,8 @@ export class LoginV2 extends React.Component {
       onResponderRelease={() => Keyboard.dismiss()}>
       <View style={styles.header}>
         {this.renderImage()}
-        <RkText rkType='light h1'>React Native</RkText>
-        <RkText rkType='logo h0'>UI Kitten</RkText>
+        <RkText rkType='light h1'></RkText>
+        <RkText rkType='logo h0'>Crowdbotics</RkText>
       </View>
       <View style={styles.content}>
         <View>
